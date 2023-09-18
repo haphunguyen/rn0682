@@ -1,0 +1,3 @@
+[submodule "submodule/RN-BlackBerry-SDK"]
+	path = submodule/RN-BlackBerry-SDK
+	url = git@github.com:haphunguyen/RN-BlackBerry-SDK.git
