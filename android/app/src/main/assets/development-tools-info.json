@@ -1,0 +1,99 @@
+{
+  "framework": {
+    "name": "ReactNative",
+    "bbdSdkForReactNativeVersion": "11.1.1.6",
+    "react-native": "0.68.2",
+    "react": "17.0.2",
+    "system": {
+      "os": "macOS 13.4.1",
+      "node": "16.20.0",
+      "npm": "8.19.4",
+      "yarn": "1.22.19",
+      "watchman": "2023.06.12.00",
+      "androidStudio": "2022.2",
+      "xcode": "14.3.1"
+    },
+    "iosSdk": {
+      "platforms": [
+        "DriverKit 22.4",
+        "iOS 16.4",
+        "macOS 13.3",
+        "tvOS 16.4",
+        "watchOS 9.4"
+      ]
+    },
+    "androidSdk": {
+      "apiLevels": [
+        ""
+      ],
+      "buildTools": [
+        ""
+      ],
+      "systemImages": [
+        ""
+      ]
+    },
+    "modules": [
+      {
+        "name": "BlackBerry-Dynamics-for-React-Native-Base",
+        "version": "1.0.0",
+        "type": "dependency"
+      },
+      {
+        "name": "react",
+        "version": "17.0.2",
+        "type": "dependency"
+      },
+      {
+        "name": "react-native",
+        "version": "0.68.2",
+        "type": "dependency"
+      },
+      {
+        "name": "@babel/core",
+        "version": "^7.12.9",
+        "type": "devDependency"
+      },
+      {
+        "name": "@babel/runtime",
+        "version": "^7.12.5",
+        "type": "devDependency"
+      },
+      {
+        "name": "@react-native-community/eslint-config",
+        "version": "^2.0.0",
+        "type": "devDependency"
+      },
+      {
+        "name": "babel-jest",
+        "version": "^26.6.3",
+        "type": "devDependency"
+      },
+      {
+        "name": "eslint",
+        "version": "^7.32.0",
+        "type": "devDependency"
+      },
+      {
+        "name": "jest",
+        "version": "^26.6.3",
+        "type": "devDependency"
+      },
+      {
+        "name": "metro-react-native-babel-preset",
+        "version": "^0.67.0",
+        "type": "devDependency"
+      },
+      {
+        "name": "react-test-renderer",
+        "version": "17.0.2",
+        "type": "devDependency"
+      },
+      {
+        "name": "BlackBerry-Dynamics-for-React-Native-SQLite-Storage",
+        "version": "1.0.0",
+        "type": "dependency"
+      }
+    ]
+  }
+}

@@ -4,12 +4,17 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "postinstall": "patch-package && pod-install",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
+    "BlackBerry-Dynamics-for-React-Native-Base": "/Users/nguyen/DSV/temp/RN0682/submodule/RN-BlackBerry-SDK/modules/BlackBerry-Dynamics-for-React-Native-Base",
+    "BlackBerry-Dynamics-for-React-Native-SQLite-Storage": "/Users/nguyen/DSV/temp/RN0682/submodule/RN-BlackBerry-SDK/modules/BlackBerry-Dynamics-for-React-Native-SQLite-Storage",
+    "patch-package": "^8.0.0",
+    "pod-install": "^0.1.39",
     "react": "17.0.2",
     "react-native": "0.68.2"
   },
