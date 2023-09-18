@@ -1491,7 +1491,7 @@
   resolved "https://registry.yarnpkg.com/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
   integrity sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ==
 
-"BlackBerry-Dynamics-for-React-Native-Base@file:submodule/RN-BlackBerry-SDK/modules/BlackBerry-Dynamics-for-React-Native-Base":
+BlackBerry-Dynamics-for-React-Native-Base@./submodule/RN-BlackBerry-SDK/modules/BlackBerry-Dynamics-for-React-Native-Base:
   version "1.0.0"
   dependencies:
     findit "^2.0.0"
@@ -1499,7 +1499,7 @@
     react-native-rename "2.4.1"
     shelljs "^0.7.0"
 
-"BlackBerry-Dynamics-for-React-Native-SQLite-Storage@file:submodule/RN-BlackBerry-SDK/modules/BlackBerry-Dynamics-for-React-Native-SQLite-Storage":
+BlackBerry-Dynamics-for-React-Native-SQLite-Storage@./submodule/RN-BlackBerry-SDK/modules/BlackBerry-Dynamics-for-React-Native-SQLite-Storage:
   version "1.0.0"
 
 abab@^2.0.3, abab@^2.0.5:

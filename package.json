@@ -13,8 +13,8 @@
   "dependencies": {
     "@react-native-firebase/analytics": "^18.4.0",
     "@react-native-firebase/app": "^18.4.0",
-    "BlackBerry-Dynamics-for-React-Native-Base": "/Users/nguyen/DSV/temp/RN0682/submodule/RN-BlackBerry-SDK/modules/BlackBerry-Dynamics-for-React-Native-Base",
-    "BlackBerry-Dynamics-for-React-Native-SQLite-Storage": "/Users/nguyen/DSV/temp/RN0682/submodule/RN-BlackBerry-SDK/modules/BlackBerry-Dynamics-for-React-Native-SQLite-Storage",
+    "BlackBerry-Dynamics-for-React-Native-Base": "./submodule/RN-BlackBerry-SDK/modules/BlackBerry-Dynamics-for-React-Native-Base",
+    "BlackBerry-Dynamics-for-React-Native-SQLite-Storage": "./submodule/RN-BlackBerry-SDK/modules/BlackBerry-Dynamics-for-React-Native-SQLite-Storage",
     "patch-package": "^8.0.0",
     "pod-install": "^0.1.39",
     "react": "17.0.2",
