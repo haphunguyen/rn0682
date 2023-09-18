@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, {useEffect} from 'react';
 import type {Node} from 'react';
 import {
   SafeAreaView,
@@ -25,6 +25,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import {openDatabase} from 'BlackBerry-Dynamics-for-React-Native-SQLite-Storage';
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -58,6 +59,18 @@ const App: () => Node = () => {
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
+
+  useEffect(() => {
+    const db = openDatabase(
+      {name: 'RNTestDatabase.db'},
+      () => {
+        console.log('Database is succesfully opened!');
+      },
+      () => {
+        console.log('Error in opening database!');
+      },
+    );
+  }, []);
 
   return (
     <SafeAreaView style={backgroundStyle}>
