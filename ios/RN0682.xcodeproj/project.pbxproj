@@ -8,12 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RN0682Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RN0682Tests.m */; };
+		06A537C50295ACA055F7D0BF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479BB90B957B1492F5D2DA69 /* AssetsLibrary.framework */; };
 		0C80B921A6F3F58F76C31292 /* libPods-RN0682.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RN0682.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		17B67CDE172611E8EE19D468 /* DeviceCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D656C45679FF133E453C45 /* DeviceCheck.framework */; };
+		268F709A3F6D6A04147B264B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B62518BB8810AD07A7372AE6 /* InfoPlist.strings */; };
+		3FB66353034D3B652F2FF002 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA29A9D2467DF75F54D2E4D1 /* Security.framework */; };
+		44714DA9B538D5693BF61B10 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3028BD078D8AA365234D413E /* SystemConfiguration.framework */; };
+		5619EF7496D1BDEFA91F51E0 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A47C02519792880A29A76E5 /* LocalAuthentication.framework */; };
+		6F892CE5DD76942699B953B1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1C6F2F399541C036C37FF9 /* CoreTelephony.framework */; };
+		702607F6EBE0CAFE84556C1E /* libnetwork.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 91974FC1AD1EBB518838983A /* libnetwork.tbd */; };
 		7699B88040F8A987B510C191 /* libPods-RN0682-RN0682Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RN0682-RN0682Tests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8BBBAA98A244C2AECC5E46BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9533E7A495CC3545A423BDA /* CoreGraphics.framework */; };
+		8D06451C4050C283B01F3FFE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AB85D9E917E00BE7AA9D2A /* CFNetwork.framework */; };
+		90088BD0FDEB3AEBE8869884 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6956640874DC238AA190F4C0 /* WebKit.framework */; };
+		A6062C01C4913FACCC3CB1C2 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5678B80C521CFC875493F9 /* AuthenticationServices.framework */; };
+		B9CE03A3998FD7F9B51BD118 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 150662FEBB574D7EB07B5FB0 /* libz.tbd */; };
+		C7459BB6BF983614F422EA2D /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180ED269A108E106CB11E040 /* SafariServices.framework */; };
+		C858277B702CA91AECADDB54 /* development-tools-info.json in Resources */ = {isa = PBXBuildFile; fileRef = 7489C984C9C6422277E32AD1 /* development-tools-info.json */; };
+		DE6566401C71506638F1BDDC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF344F19E5427384EA822B8E /* MessageUI.framework */; };
+		DEFA37CA7EA8E10F9AF4C852 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B1F23E377ABEE0F3705546 /* MobileCoreServices.framework */; };
+		E28C6C58D0EB02DCAB8FE22B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90B751E929C412E4E9A379B /* QuartzCore.framework */; };
+		F9B9DFD7C787F40598F79D81 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7F29AAAC6F22829085D815 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +49,51 @@
 		00E356EE1AD99517003FC87E /* RN0682Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RN0682Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RN0682Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RN0682Tests.m; sourceTree = "<group>"; };
+		0484ADB78F3CBBBCF862CE53 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/en.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RN0682.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RN0682.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RN0682/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RN0682/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RN0682/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RN0682/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RN0682/main.m; sourceTree = "<group>"; };
+		150662FEBB574D7EB07B5FB0 /* libz.tbd */ = {isa = PBXFileReference; includeInIndex = 1; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		180ED269A108E106CB11E040 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SafariServices.framework; sourceTree = DEVELOPER_DIR; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RN0682-RN0682Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RN0682-RN0682Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D1C6F2F399541C036C37FF9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		224830A5CD5DB48D8B37AF49 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/pt.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		294D3E2586487B16D773F08A /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		3028BD078D8AA365234D413E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-RN0682.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN0682.debug.xcconfig"; path = "Target Support Files/Pods-RN0682/Pods-RN0682.debug.xcconfig"; sourceTree = "<group>"; };
+		479BB90B957B1492F5D2DA69 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
 		5709B34CF0A7D63546082F79 /* Pods-RN0682.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN0682.release.xcconfig"; path = "Target Support Files/Pods-RN0682/Pods-RN0682.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RN0682-RN0682Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN0682-RN0682Tests.debug.xcconfig"; path = "Target Support Files/Pods-RN0682-RN0682Tests/Pods-RN0682-RN0682Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-RN0682.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RN0682.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E31C715B8D652D1589889C0 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		617C614144D72FFD88F36446 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/da.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		6956640874DC238AA190F4C0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		7489C984C9C6422277E32AD1 /* development-tools-info.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "development-tools-info.json"; path = "RN0682/Resources/development-tools-info.json"; sourceTree = SOURCE_ROOT; };
+		76B1F23E377ABEE0F3705546 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		7A47C02519792880A29A76E5 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RN0682/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RN0682-RN0682Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN0682-RN0682Tests.release.xcconfig"; path = "Target Support Files/Pods-RN0682-RN0682Tests/Pods-RN0682-RN0682Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8DF7E4F68EA73CC03A3E5256 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/fr.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		91974FC1AD1EBB518838983A /* libnetwork.tbd */ = {isa = PBXFileReference; includeInIndex = 1; name = libnetwork.tbd; path = usr/lib/libnetwork.tbd; sourceTree = SDKROOT; };
+		A5AB85D9E917E00BE7AA9D2A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		A9DDE596DED46CC6E583F28E /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/ko.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		B4599DD12D95AEDA7B247061 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/nl.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		B6548D44D931A3C12F297AD8 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/sv.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		B90B751E929C412E4E9A379B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BB5678B80C521CFC875493F9 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AuthenticationServices.framework; sourceTree = DEVELOPER_DIR; };
+		BF344F19E5427384EA822B8E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		C30715057C4A4AFC5F3560CD /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/ja.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		C6A789FA7BFE58F183AACC6D /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/it.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		CE7F29AAAC6F22829085D815 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		E4BB61B91F2AA0D1C332B6F7 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/de.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		E8D656C45679FF133E453C45 /* DeviceCheck.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceCheck.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/DeviceCheck.framework; sourceTree = DEVELOPER_DIR; };
+		E9533E7A495CC3545A423BDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F44D460296FF32DDF7E3DBB1 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/es.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		FA29A9D2467DF75F54D2E4D1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +110,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-RN0682.a in Frameworks */,
+				90088BD0FDEB3AEBE8869884 /* WebKit.framework in Frameworks */,
+				5619EF7496D1BDEFA91F51E0 /* LocalAuthentication.framework in Frameworks */,
+				17B67CDE172611E8EE19D468 /* DeviceCheck.framework in Frameworks */,
+				8D06451C4050C283B01F3FFE /* CFNetwork.framework in Frameworks */,
+				F9B9DFD7C787F40598F79D81 /* CoreData.framework in Frameworks */,
+				6F892CE5DD76942699B953B1 /* CoreTelephony.framework in Frameworks */,
+				E28C6C58D0EB02DCAB8FE22B /* QuartzCore.framework in Frameworks */,
+				3FB66353034D3B652F2FF002 /* Security.framework in Frameworks */,
+				DE6566401C71506638F1BDDC /* MessageUI.framework in Frameworks */,
+				44714DA9B538D5693BF61B10 /* SystemConfiguration.framework in Frameworks */,
+				DEFA37CA7EA8E10F9AF4C852 /* MobileCoreServices.framework in Frameworks */,
+				8BBBAA98A244C2AECC5E46BC /* CoreGraphics.framework in Frameworks */,
+				06A537C50295ACA055F7D0BF /* AssetsLibrary.framework in Frameworks */,
+				C7459BB6BF983614F422EA2D /* SafariServices.framework in Frameworks */,
+				A6062C01C4913FACCC3CB1C2 /* AuthenticationServices.framework in Frameworks */,
+				B9CE03A3998FD7F9B51BD118 /* libz.tbd in Frameworks */,
+				702607F6EBE0CAFE84556C1E /* libnetwork.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +159,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				7489C984C9C6422277E32AD1 /* development-tools-info.json */,
+				B62518BB8810AD07A7372AE6 /* InfoPlist.strings */,
 			);
 			name = RN0682;
 			sourceTree = "<group>";
@@ -102,6 +171,9 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-RN0682.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-RN0682-RN0682Tests.a */,
+				8CCD16B7ACB06F58264D008D /* iOS */,
+				150662FEBB574D7EB07B5FB0 /* libz.tbd */,
+				91974FC1AD1EBB518838983A /* libnetwork.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,6 +207,28 @@
 				00E356EE1AD99517003FC87E /* RN0682Tests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8CCD16B7ACB06F58264D008D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6956640874DC238AA190F4C0 /* WebKit.framework */,
+				7A47C02519792880A29A76E5 /* LocalAuthentication.framework */,
+				E8D656C45679FF133E453C45 /* DeviceCheck.framework */,
+				A5AB85D9E917E00BE7AA9D2A /* CFNetwork.framework */,
+				CE7F29AAAC6F22829085D815 /* CoreData.framework */,
+				1D1C6F2F399541C036C37FF9 /* CoreTelephony.framework */,
+				B90B751E929C412E4E9A379B /* QuartzCore.framework */,
+				FA29A9D2467DF75F54D2E4D1 /* Security.framework */,
+				BF344F19E5427384EA822B8E /* MessageUI.framework */,
+				3028BD078D8AA365234D413E /* SystemConfiguration.framework */,
+				76B1F23E377ABEE0F3705546 /* MobileCoreServices.framework */,
+				E9533E7A495CC3545A423BDA /* CoreGraphics.framework */,
+				479BB90B957B1492F5D2DA69 /* AssetsLibrary.framework */,
+				180ED269A108E106CB11E040 /* SafariServices.framework */,
+				BB5678B80C521CFC875493F9 /* AuthenticationServices.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -244,6 +338,8 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C858277B702CA91AECADDB54 /* development-tools-info.json in Resources */,
+				268F709A3F6D6A04147B264B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +521,29 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		B62518BB8810AD07A7372AE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617C614144D72FFD88F36446 /* InfoPlist.strings */,
+				E4BB61B91F2AA0D1C332B6F7 /* InfoPlist.strings */,
+				0484ADB78F3CBBBCF862CE53 /* InfoPlist.strings */,
+				F44D460296FF32DDF7E3DBB1 /* InfoPlist.strings */,
+				8DF7E4F68EA73CC03A3E5256 /* InfoPlist.strings */,
+				C6A789FA7BFE58F183AACC6D /* InfoPlist.strings */,
+				C30715057C4A4AFC5F3560CD /* InfoPlist.strings */,
+				A9DDE596DED46CC6E583F28E /* InfoPlist.strings */,
+				B4599DD12D95AEDA7B247061 /* InfoPlist.strings */,
+				294D3E2586487B16D773F08A /* InfoPlist.strings */,
+				224830A5CD5DB48D8B37AF49 /* InfoPlist.strings */,
+				B6548D44D931A3C12F297AD8 /* InfoPlist.strings */,
+				5E31C715B8D652D1589889C0 /* InfoPlist.strings */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -487,8 +606,13 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RN0682/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
+					/usr/lib/swift,
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDK_DIR)/usr/lib/swift",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					"$(inherited)",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -499,6 +623,7 @@
 				PRODUCT_NAME = RN0682;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				VALIDATE_WORKSPACE = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -510,10 +635,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RN0682/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
+					/usr/lib/swift,
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDK_DIR)/usr/lib/swift",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					"$(inherited)",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -523,6 +654,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RN0682;
 				SWIFT_VERSION = 5.0;
+				VALIDATE_WORKSPACE = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
